@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+header{
+    padding: 12px 2% 30px 2%;
+    background-color: #ccc;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo-1{
+    float: left;
+    width: 150px;
+    height: 52px;
+    background-image: url(../img/logo1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-2{
+    float: right;
+    width: 175px;
+    height: 52px;
+    background-image: url(../img/logo2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+section.cover-form{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.bg{
+    background-image: url(../img/bg-form.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container{
+    float: right;
+    margin-right: 40px;
+    height: 110%;
+    position: relative;
+    top: -5%;
+    width: 400px;
+    background-color: rgba(186, 186, 186, 0.5)
+}
+
+.form-container h2{
+    background-color: rgba(234, 236, 239, 0.7);
+    padding: 28px 15px;
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.form-container form{
+    margin-top: 8px;
+    padding: 16px;
+}
+
+.form-container form p{
+    font-size: 16px;
+    color: rgb(40,40,40);
+}
+
+.form-container form input[type=text]{
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form-wrapper:not(:first-child){
+    margin-top: 35px;
+}
+
+.form-wrapper:last-child{
+    margin-top: 20px;
+
+}
+
+.form-container form input[type=submit]{
+    background-color: #033c50 ;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    height: 55px;
+    cursor: pointer;
+    box-shadow: 1px 1px 7px #035672;
+}
+
+@media screen and (max-width: 510px) {
+    .logo-1, .logo-2{
+        float: none;
+        display: inline-block;
+        margin-top: 12px;
+    }
+
+    header{
+        text-align: center;
+    }
+}
