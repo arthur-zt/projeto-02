@@ -117,6 +117,11 @@ section.cover-form{
     border-radius: 10px;
 }
 
+.form-container form input[type=submit]:hover{
+    background-color: #056484;
+    transition: 0.5s;
+}
+
 section.chamada{
     text-align: center;
     display: inline-block;
